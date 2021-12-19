@@ -1,4 +1,6 @@
 #!/bin/sh
-sudo apt-get install gnome-tweaks gnome-shell-extensions dash-to-dock telegram-desktop snapd wget openssh-server x11vnc -y
-sudo snap install discord spotify brave gnome-system-monitor 
+git clone https://github.com/xerolinux/xero-nord-git
+cd xero-nord-git
+chmod +x install.sh
+./install.sh
 #etc.
